@@ -1,0 +1,41 @@
+[alias]
+    up = pull --rebase
+    today = "log --since='00:00:00' --author=Harald --no-merges --oneline"
+    report = "log --since=2.weeks --author=Harald --no-merges --format='%Cgreen%ci%Creset %s%Creset'"
+[core]
+    editor = vim
+	excludesfile = /Users/hpehl/.gitignore_global
+    autocrlf = input
+	pager = less -F -X
+[credential]
+    helper = osxkeychain
+[diff]
+    tool = Kaleidoscope
+[difftool]
+    prompt = false
+[difftool "Kaleidoscope"]
+    cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+    required = true
+	process = git-lfs filter-process
+[merge]
+	tool = Kaleidoscope
+[mergetool]
+    keepBackup = true
+    prompt = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+    trustexitcode = true
+[user]
+	email = harald.pehl@gmail.com
+	name = Harald Pehl
+[difftool "sourcetree"]
+	cmd = /usr/local/bin/ksdiff -w \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[commit]
+	template = /Users/hpehl/.stCommitMsg
