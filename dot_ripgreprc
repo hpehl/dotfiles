@@ -1,0 +1,11 @@
+# Don't let ripgrep omit really long lines to my terminal, and show a preview.
+--max-columns=150
+--max-columns-preview
+
+# Add types
+--type-add=web:*.{html,css,js}
+--type-add=maven:pom.xml
+
+# Because who cares about case!?
+--smart-case
+

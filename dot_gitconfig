@@ -1,0 +1,64 @@
+[alias]
+  dft = difftool
+  up = pull --rebase
+
+[commit]
+  gpgsign = true
+
+[core]
+  excludesfile = /Users/hpehl/.gitignore_global
+  pager = delta
+  autocrlf = input
+  editor = vim
+
+[credential]
+  helper = osxkeychain
+
+[delta]
+  features = side-by-side line-numbers decorations
+  minus-style = "syntax #340001"
+  navigate = true
+  plus-style = "syntax #012800"
+  syntax-theme = Dracula
+
+[diff]
+  tool = difftastic
+
+[difftool]
+  prompt = false
+
+[difftool "difftastic"]
+  cmd = difft "$LOCAL" "$REMOTE"
+
+[difftool "ksdiff"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  process = git-lfs filter-process
+  smudge = git-lfs smudge -- %f
+  required = true
+
+[init]
+  defaultBranch = main
+
+[interactive]
+  diffFilter = delta --color-only
+
+[interactive]
+  diffFilter = delta --color-only
+
+[pager]
+  diff = delta
+  difftool = true
+  log = delta
+  reflog = delta
+  show = delta
+
+[pull]
+  rebase = false
+
+[user]
+  email = harald.pehl@gmail.com
+  name = Harald Pehl
+  signingkey = 0D68DE5E4B91E5DAE74D9B634A5939FF2A79C898
