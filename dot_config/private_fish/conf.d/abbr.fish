@@ -11,6 +11,13 @@ abbr -a -- weather 'curl http://wttr.in/Wuerzburg'
 abbr -a -- vab 'nvim ~/.config/fish/conf.d/abbr.fish'
 abbr -a -- zab 'zed ~/.config/fish/conf.d/abbr.fish'
 
+# Chezmoi
+abbr -a -- cma chezmoi add
+abbr -a -- cme chezmoi edit
+abbr -a -- cms chezmoi status
+abbr -a -- cmm chezmoi managed
+abbr -a -- cmu chezmoi unmanaged
+
 # Git
 abbr -a -- gc    'git checkout'
 abbr -a -- gcm   'git checkout main'
