@@ -3,7 +3,7 @@
   up = pull --rebase
 
 [commit]
-  gpgsign = true
+	gpgsign = true
 
 [core]
   excludesfile = /Users/hpehl/.gitignore_global
@@ -62,3 +62,5 @@
   email = harald.pehl@gmail.com
   name = Harald Pehl
   signingkey = 0D68DE5E4B91E5DAE74D9B634A5939FF2A79C898
+[gpg]
+	program = gpg
