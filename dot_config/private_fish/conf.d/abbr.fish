@@ -12,11 +12,13 @@ abbr -a -- vab 'nvim ~/.config/fish/conf.d/abbr.fish'
 abbr -a -- zab 'zed ~/.config/fish/conf.d/abbr.fish'
 
 # Chezmoi
-abbr -a -- cma chezmoi add
-abbr -a -- cme chezmoi edit
-abbr -a -- cms chezmoi status
-abbr -a -- cmm chezmoi managed
-abbr -a -- cmu chezmoi unmanaged
+abbr -a -- cma  chezmoi add
+abbr -a -- cmaa chezmoi-add-all
+abbr -a -- cmcd chezmoi cd
+abbr -a -- cme  chezmoi edit
+abbr -a -- cms  chezmoi status
+abbr -a -- cmm  chezmoi managed
+abbr -a -- cmu  chezmoi unmanaged
 
 # Git
 abbr -a -- gc    'git checkout'
