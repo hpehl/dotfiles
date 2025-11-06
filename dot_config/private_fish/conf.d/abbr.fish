@@ -50,11 +50,16 @@ abbr -a -- wel ./gradlew
 
 # Java
 abbr -a -- j11 'sdk use java 11.0.28-tem'
-abbr -a -- j17 'sdk use java 17.0.16-tem'
+abbr -a -- j17 'sdk use java 17.0.17-tem'
 abbr -a -- j21 'sdk use java 21.0.8-tem'
 abbr -a -- j23 'sdk use java 23.0.2-tem'
 abbr -a -- j24 'sdk use java 24.0.2-tem'
-abbr -a -- j25 'sdk use java 25-tem'
+abbr -a -- j25 'sdk use java 25.0.1-tem'
+abbr -a -- g17 'sdk use java 17.0.9-graalce'
+abbr -a -- g21 'sdk use java 21.0.2-graalce'
+abbr -a -- g23 'sdk use java 23.0.2-graalce'
+abbr -a -- g24 'sdk use java 24.0.2-graalce'
+abbr -a -- g25 'sdk use java 25.0.1-graalce'
 
 # Jira
 abbr -a -- jil 'jira issue list'
