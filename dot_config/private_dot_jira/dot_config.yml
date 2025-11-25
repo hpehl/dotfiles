@@ -1,0 +1,2017 @@
+board: ""
+epic:
+    name: customfield_12311141
+    link: customfield_12311140
+installation: Local
+issue:
+    fields:
+        custom:
+            - name: Release Date
+              key: customfield_12322243
+              schema:
+                datatype: date
+            - name: PX Impact Score
+              key: customfield_12322244
+              schema:
+                datatype: number
+            - name: Staffing
+              key: customfield_12322240
+              schema:
+                datatype: number
+            - name: Gating Tests
+              key: customfield_12322241
+              schema:
+                datatype: array
+                items: option
+            - name: SVN / CVS Isolated Branch
+              key: customfield_12310022
+              schema:
+                datatype: string
+            - name: Percent confident
+              key: customfield_12314742
+              schema:
+                datatype: number
+            - name: Support Case Reference
+              key: customfield_12310021
+              schema:
+                datatype: string
+            - name: Affects Build
+              key: customfield_12312441
+              schema:
+                datatype: option
+            - name: Percent complete
+              key: customfield_12314741
+              schema:
+                datatype: number
+            - name: Development
+              key: customfield_12314740
+              schema:
+                datatype: any
+            - name: Fix Build
+              key: customfield_12312442
+              schema:
+                datatype: option
+            - name: Deployment Notes
+              key: customfield_12312440
+              schema:
+                datatype: string
+            - name: Contributors
+              key: customfield_12315950
+              schema:
+                datatype: array
+                items: user
+            - name: Internal Target Milestone
+              key: customfield_12321040
+              schema:
+                datatype: option
+            - name: CDW qa_ack
+              key: customfield_12311244
+              schema:
+                datatype: string
+            - name: CDW blocker
+              key: customfield_12311245
+              schema:
+                datatype: string
+            - name: CDW pm_ack
+              key: customfield_12311242
+              schema:
+                datatype: string
+            - name: PX Scheduling Request - OLD
+              key: customfield_12315841
+              schema:
+                datatype: string
+            - name: CDW devel_ack
+              key: customfield_12311243
+              schema:
+                datatype: string
+            - name: Epic Type
+              key: customfield_12313541
+              schema:
+                datatype: option
+            - name: Defect Tracker URL
+              key: customfield_12310150
+              schema:
+                datatype: string
+            - name: Target Release
+              key: customfield_12311240
+              schema:
+                datatype: version
+            - name: CDW release
+              key: customfield_12311241
+              schema:
+                datatype: string
+            - name: Affects
+              key: customfield_12310031
+              schema:
+                datatype: array
+                items: option
+            - name: CDW exception
+              key: customfield_12311246
+              schema:
+                datatype: string
+            - name: Escape Reason
+              key: customfield_12320041
+              schema:
+                datatype: option
+            - name: QE Priority
+              key: customfield_12319294
+              schema:
+                datatype: option
+            - name: Affected Groups
+              key: customfield_12319293
+              schema:
+                datatype: string
+            - name: Work Type
+              key: customfield_12320040
+              schema:
+                datatype: option
+            - name: ProdDocsReview-CCS
+              key: customfield_12322343
+              schema:
+                datatype: option
+            - name: ProdDocsReview-QE
+              key: customfield_12322344
+              schema:
+                datatype: option
+            - name: Corrective Measures
+              key: customfield_12320043
+              schema:
+                datatype: option
+            - name: Escape Impact
+              key: customfield_12320042
+              schema:
+                datatype: option
+            - name: ProdDocsReview-Dev
+              key: customfield_12322340
+              schema:
+                datatype: option
+            - name: SME
+              key: customfield_12319299
+              schema:
+                datatype: user
+            - name: Training Opportunity
+              key: customfield_12319290
+              schema:
+                datatype: option
+            - name: Testing Instructions
+              key: customfield_12319292
+              schema:
+                datatype: string
+            - name: Training Opportunity Notes
+              key: customfield_12319291
+              schema:
+                datatype: string
+            - name: Help Desk Ticket Reference
+              key: customfield_12310120
+              schema:
+                datatype: any
+            - name: Doc Version/s
+              key: customfield_12314840
+              schema:
+                datatype: array
+                items: version
+            - name: Story Points
+              key: customfield_12310243
+              schema:
+                datatype: number
+            - name: GtmhubObjectID
+              key: customfield_12321140
+              schema:
+                datatype: string
+            - name: Ready-Ready
+              key: customfield_12315943
+              schema:
+                datatype: array
+                items: option
+            - name: Forum Reference
+              key: customfield_12310010
+              schema:
+                datatype: any
+            - name: Planned End
+              key: customfield_12315944
+              schema:
+                datatype: date
+            - name: QA Contact
+              key: customfield_12315948
+              schema:
+                datatype: user
+            - name: Product
+              key: customfield_12315949
+              schema:
+                datatype: option
+            - name: Acceptance Criteria
+              key: customfield_12315940
+              schema:
+                datatype: string
+            - name: Backlogs
+              key: customfield_12315941
+              schema:
+                datatype: array
+                items: option
+            - name: Internal Whiteboard
+              key: customfield_12322040
+              schema:
+                datatype: string
+            - name: Engineering Response
+              key: customfield_12310181
+              schema:
+                datatype: string
+            - name: Patch Visibility
+              key: customfield_12310060
+              schema:
+                datatype: array
+                items: option
+            - name: Background and Context
+              key: customfield_12310180
+              schema:
+                datatype: string
+            - name: 5-Acks Check
+              key: customfield_12316845
+              schema:
+                datatype: array
+                items: option
+            - name: GitHub Issue
+              key: customfield_12316846
+              schema:
+                datatype: string
+            - name: Developer Comment
+              key: customfield_12316847
+              schema:
+                datatype: string
+            - name: ODC Planning
+              key: customfield_12316848
+              schema:
+                datatype: array
+                items: option
+            - name: Code Sample
+              key: customfield_12312241
+              schema:
+                datatype: string
+            - name: ODC Planning Ack
+              key: customfield_12316849
+              schema:
+                datatype: array
+                items: option
+            - name: Steps to Reproduce
+              key: customfield_12310183
+              schema:
+                datatype: string
+            - name: Product Management Response
+              key: customfield_12310182
+              schema:
+                datatype: string
+            - name: QE Status
+              key: customfield_12312240
+              schema:
+                datatype: option
+            - name: Bugzilla Bug
+              key: customfield_12316840
+              schema:
+                datatype: any
+            - name: Sync Failure Flag
+              key: customfield_12316841
+              schema:
+                datatype: array
+                items: string
+            - name: Sync Failure Message
+              key: customfield_12316842
+              schema:
+                datatype: string
+            - name: Whiteboard
+              key: customfield_12316843
+              schema:
+                datatype: string
+            - name: Subcomponent
+              key: customfield_12316844
+              schema:
+                datatype: string
+            - name: Patch Repository Link
+              key: customfield_12310071
+              schema:
+                datatype: string
+            - name: Patch Instructions
+              key: customfield_12310070
+              schema:
+                datatype: string
+            - name: Doc Required
+              key: customfield_12315640
+              schema:
+                datatype: option
+            - name: Stackoverflow ID
+              key: customfield_12313340
+              schema:
+                datatype: string
+            - name: Service Delivery Planning ACK
+              key: customfield_12316850
+              schema:
+                datatype: array
+                items: option
+            - name: Funding State
+              key: customfield_12317940
+              schema:
+                datatype: option
+            - name: Funding Strategy
+              key: customfield_12317941
+              schema:
+                datatype: option
+            - name: PX Impact Range
+              key: customfield_12322143
+              schema:
+                datatype: array
+                items: option
+            - name: Risk Identified Date
+              key: customfield_12322144
+              schema:
+                datatype: date
+            - name: Additional Approvers
+              key: customfield_12322145
+              schema:
+                datatype: array
+                items: user
+            - name: Security Approvals
+              key: customfield_12322146
+              schema:
+                datatype: array
+                items: user
+            - name: PX Review Complete
+              key: customfield_12322140
+              schema:
+                datatype: option
+            - name: PX Technical Impact
+              key: customfield_12322141
+              schema:
+                datatype: option
+            - name: PX Priority Data
+              key: customfield_12322142
+              schema:
+                datatype: array
+                items: option
+            - name: External QA Contact
+              key: customfield_12322147
+              schema:
+                datatype: user
+            - name: Dev Target end
+              key: customfield_12322148
+              schema:
+                datatype: date
+            - name: Project Target Date
+              key: customfield_12322149
+              schema:
+                datatype: date
+            - name: GSS Priority
+              key: customfield_12312340
+              schema:
+                datatype: option
+            - name: Upstream Jira
+              key: customfield_12314640
+              schema:
+                datatype: string
+            - name: Customer Name
+              key: customfield_12310160
+              schema:
+                datatype: string
+            - name: Team Confidence
+              key: customfield_12316940
+              schema:
+                datatype: option
+            - name: QE Confidence
+              key: customfield_12316941
+              schema:
+                datatype: option
+            - name: Doc Confidence
+              key: customfield_12316942
+              schema:
+                datatype: option
+            - name: Business Value
+              key: customfield_12316943
+              schema:
+                datatype: number
+            - name: Exception Count
+              key: customfield_12322150
+              schema:
+                datatype: number
+            - name: Security Controls
+              key: customfield_12322151
+              schema:
+                datatype: option-with-child
+            - name: Blocked by Bugzilla Bug
+              key: customfield_12322152
+              schema:
+                datatype: string
+            - name: Affects Testing
+              key: customfield_12310170
+              schema:
+                datatype: array
+                items: option
+            - name: Affected Jars
+              key: customfield_12313443
+              schema:
+                datatype: string
+            - name: Epic Colour
+              key: customfield_12311143
+              schema:
+                datatype: string
+            - name: PDD Priority
+              key: customfield_12313442
+              schema:
+                datatype: number
+            - name: SFDC Cases Links
+              key: customfield_12313441
+              schema:
+                datatype: number
+            - name: issueFunction
+              key: customfield_12315740
+              schema:
+                datatype: any
+            - name: Epic Status
+              key: customfield_12311142
+              schema:
+                datatype: option
+            - name: SFDC Cases Counter
+              key: customfield_12313440
+              schema:
+                datatype: number
+            - name: Component Fix Version(s)
+              key: customfield_12310173
+              schema:
+                datatype: string
+            - name: cee_cir
+              key: customfield_12314340
+              schema:
+                datatype: string
+            - name: Parent Link
+              key: customfield_12313140
+              schema:
+                datatype: any
+            - name: QE Estimate
+              key: customfield_12313145
+              schema:
+                datatype: number
+            - name: EAP PT Community Docs (CD)
+              key: customfield_12313143
+              schema:
+                datatype: option
+            - name: EAP PT Test Dev (TD)
+              key: customfield_12313144
+              schema:
+                datatype: option
+            - name: Planning Status
+              key: customfield_12317740
+              schema:
+                datatype: option
+            - name: Tester
+              key: customfield_12310080
+              schema:
+                datatype: user
+            - name: Support Exception Account Number
+              key: customfield_12316747
+              schema:
+                datatype: string
+            - name: Architect
+              key: customfield_12316749
+              schema:
+                datatype: user
+            - name: Class of work
+              key: customfield_12312142
+              schema:
+                datatype: option
+            - name: Prod build version
+              key: customfield_12316740
+              schema:
+                datatype: string
+            - name: QE ACK
+              key: customfield_12316745
+              schema:
+                datatype: option
+            - name: Workaround Description
+              key: customfield_12310091
+              schema:
+                datatype: string
+            - name: Workaround
+              key: customfield_12310090
+              schema:
+                datatype: array
+                items: option
+            - name: Estimated Difficulty
+              key: customfield_12310092
+              schema:
+                datatype: option
+            - name: Flagged
+              key: customfield_12315542
+              schema:
+                datatype: array
+                items: option
+            - name: Regression Test
+              key: customfield_12315541
+              schema:
+                datatype: option
+            - name: EAP Docs SME
+              key: customfield_12315540
+              schema:
+                datatype: option
+            - name: Team
+              key: customfield_12313240
+              schema:
+                datatype: any
+            - name: Technical Lead
+              key: customfield_12316750
+              schema:
+                datatype: user
+            - name: Designer
+              key: customfield_12316751
+              schema:
+                datatype: user
+            - name: Fuse Progress Bar
+              key: customfield_12317841
+              schema:
+                datatype: string
+            - name: Product Manager
+              key: customfield_12316752
+              schema:
+                datatype: user
+            - name: Fuse Progress
+              key: customfield_12317842
+              schema:
+                datatype: string
+            - name: Manager
+              key: customfield_12316753
+              schema:
+                datatype: user
+            - name: BZ Partner
+              key: customfield_12317843
+              schema:
+                datatype: array
+                items: option
+            - name: Test Coverage
+              key: customfield_12320940
+              schema:
+                datatype: array
+                items: option
+            - name: Test Link
+              key: customfield_12320944
+              schema:
+                datatype: string
+            - name: Pervasiveness
+              key: customfield_12320943
+              schema:
+                datatype: option
+            - name: Willingness to Pay
+              key: customfield_12320941
+              schema:
+                datatype: option
+            - name: Work Source
+              key: customfield_12316441
+              schema:
+                datatype: option
+            - name: Customer Cloud Subscription (CCS)
+              key: customfield_12316442
+              schema:
+                datatype: option
+            - name: Portfolio Solutions
+              key: customfield_12318740
+              schema:
+                datatype: array
+                items: option
+            - name: Cluster Admin Enabled
+              key: customfield_12316443
+              schema:
+                datatype: option
+            - name: Cloud Platform
+              key: customfield_12316444
+              schema:
+                datatype: option
+            - name: Support Scope
+              key: customfield_12317540
+              schema:
+                datatype: option
+            - name: EAP Testing By
+              key: customfield_12315240
+              schema:
+                datatype: option
+            - name: Experience
+              key: customfield_12320948
+              schema:
+                datatype: option
+            - name: Original Estimate
+              key: customfield_12317307
+              schema:
+                datatype: string
+            - name: Market
+              key: customfield_12320947
+              schema:
+                datatype: array
+                items: option
+            - name: BZ URL
+              key: customfield_12317309
+              schema:
+                datatype: string
+            - name: Intelligence Requested
+              key: customfield_12320946
+              schema:
+                datatype: option
+            - name: Risk Category
+              key: customfield_12320945
+              schema:
+                datatype: option
+            - name: External issue ID
+              key: customfield_12319840
+              schema:
+                datatype: string
+            - name: Risk Type
+              key: customfield_12317301
+              schema:
+                datatype: option
+            - name: Risk Probability
+              key: customfield_12317302
+              schema:
+                datatype: option
+            - name: Risk Proximity
+              key: customfield_12317303
+              schema:
+                datatype: option
+            - name: Risk Impact Level
+              key: customfield_12317304
+              schema:
+                datatype: option
+            - name: Risk impact description
+              key: customfield_12317305
+              schema:
+                datatype: string
+            - name: Risk mitigation/contingency
+              key: customfield_12317306
+              schema:
+                datatype: string
+            - name: Actual Effort
+              key: customfield_12316548
+              schema:
+                datatype: number
+            - name: CRT Milestone Estimate
+              key: customfield_12316549
+              schema:
+                datatype: number
+            - name: EAP PT Pre-Checked (PC)
+              key: customfield_12314245
+              schema:
+                datatype: option
+            - name: EAP PT Product Docs (PD)
+              key: customfield_12314244
+              schema:
+                datatype: option
+            - name: EAP PT Docs Analysis (DA)
+              key: customfield_12314243
+              schema:
+                datatype: option
+            - name: EAP PT Test Plan (TP)
+              key: customfield_12314242
+              schema:
+                datatype: option
+            - name: EAP PT Analysis Document (AD)
+              key: customfield_12314241
+              schema:
+                datatype: option
+            - name: Marketing Info
+              key: customfield_12318840
+              schema:
+                datatype: string
+            - name: Reviewer
+              key: customfield_12316540
+              schema:
+                datatype: user
+            - name: T-Shirt Size
+              key: customfield_12316541
+              schema:
+                datatype: option
+            - name: Ready
+              key: customfield_12316542
+              schema:
+                datatype: option
+            - name: Blocked
+              key: customfield_12316543
+              schema:
+                datatype: option
+            - name: Marketing Info Ready
+              key: customfield_12318841
+              schema:
+                datatype: option
+            - name: Blocked Reason
+              key: customfield_12316544
+              schema:
+                datatype: string
+            - name: Owner
+              key: customfield_12316545
+              schema:
+                datatype: user
+            - name: Evidence Score
+              key: customfield_12316546
+              schema:
+                datatype: option
+            - name: Discussed with Team
+              key: customfield_12316547
+              schema:
+                datatype: option
+            - name: Test Plan
+              key: customfield_12313040
+              schema:
+                datatype: any
+            - name: Analysis Document
+              key: customfield_12313041
+              schema:
+                datatype: any
+            - name: Microrelease version
+              key: customfield_12313042
+              schema:
+                datatype: string
+            - name: DevTestDoc
+              key: customfield_12317640
+              schema:
+                datatype: array
+                items: option
+            - name: Target Version
+              key: customfield_12319940
+              schema:
+                datatype: array
+                items: version
+            - name: EXD-Service
+              key: customfield_12317401
+              schema:
+                datatype: option-with-child
+            - name: EXD-WorkType
+              key: customfield_12317403
+              schema:
+                datatype: array
+                items: option
+            - name: Commitment
+              key: customfield_12317404
+              schema:
+                datatype: option
+            - name: Requesting Teams
+              key: customfield_12317405
+              schema:
+                datatype: array
+                items: option
+            - name: Planning
+              key: customfield_12316240
+              schema:
+                datatype: array
+                items: option
+            - name: BZ needinfo
+              key: customfield_12317330
+              schema:
+                datatype: option
+            - name: Design Doc
+              key: customfield_12316241
+              schema:
+                datatype: string
+            - name: Risk Score
+              key: customfield_12319751
+              schema:
+                datatype: number
+            - name: BZ rhel-8.0.z
+              key: customfield_12317331
+              schema:
+                datatype: option
+            - name: Message For OHSS Project
+              key: customfield_12318540
+              schema:
+                datatype: string
+            - name: QEStatus
+              key: customfield_12316242
+              schema:
+                datatype: option
+            - name: WSJF
+              key: customfield_12319750
+              schema:
+                datatype: string
+            - name: Urgency
+              key: customfield_12320741
+              schema:
+                datatype: number
+            - name: Impact
+              key: customfield_12320740
+              schema:
+                datatype: number
+            - name: ZStream Target Release
+              key: customfield_12317332
+              schema:
+                datatype: option
+            - name: BZ blocker
+              key: customfield_12317333
+              schema:
+                datatype: option
+            - name: Needs Product Docs
+              key: customfield_12316245
+              schema:
+                datatype: option
+            - name: zstream
+              key: customfield_12317334
+              schema:
+                datatype: option
+            - name: BZ Version
+              key: customfield_12317335
+              schema:
+                datatype: string
+            - name: BZ Docs Contact
+              key: customfield_12317336
+              schema:
+                datatype: user
+            - name: BZ requires_doc_text
+              key: customfield_12317337
+              schema:
+                datatype: option
+            - name: Doc Commitment
+              key: customfield_12317338
+              schema:
+                datatype: option
+            - name: Hardware
+              key: customfield_12317339
+              schema:
+                datatype: option
+            - name: Sprint
+              key: customfield_12310940
+              schema:
+                datatype: array
+                items: string
+            - name: Link to documentation
+              key: customfield_12316250
+              schema:
+                datatype: string
+            - name: OS
+              key: customfield_12317340
+              schema:
+                datatype: option
+            - name: Public Target Launch Date
+              key: customfield_12317341
+              schema:
+                datatype: string
+            - name: Contributing Groups
+              key: customfield_12319640
+              schema:
+                datatype: array
+                items: group
+            - name: Onsite Hardware Date
+              key: customfield_12317342
+              schema:
+                datatype: string
+            - name: 3scale PT Verified Product
+              key: customfield_12315043
+              schema:
+                datatype: option
+            - name: 3scale PT Released In Saas
+              key: customfield_12315042
+              schema:
+                datatype: option
+            - name: 3scale PT Docs
+              key: customfield_12315041
+              schema:
+                datatype: option
+            - name: 3scale PT Product Specs
+              key: customfield_12315040
+              schema:
+                datatype: option
+            - name: Supply Chain STI
+              key: customfield_12321840
+              schema:
+                datatype: option-with-child
+            - name: Offerings
+              key: customfield_12321841
+              schema:
+                datatype: option-with-child
+            - name: 3scale PT Product Update Ready
+              key: customfield_12315044
+              schema:
+                datatype: option
+            - name: Target Upstream Version
+              key: customfield_12317343
+              schema:
+                datatype: string
+            - name: Close Duplicate Candidate
+              key: customfield_12317344
+              schema:
+                datatype: string
+            - name: Partner Requirement State
+              key: customfield_12317345
+              schema:
+                datatype: option
+            - name: BZ Target Release
+              key: customfield_12317346
+              schema:
+                datatype: option
+            - name: Upstream Kernel Target
+              key: customfield_12317347
+              schema:
+                datatype: option
+            - name: EPM priority
+              key: customfield_12317348
+              schema:
+                datatype: array
+                items: option
+            - name: Case Link
+              key: customfield_12317349
+              schema:
+                datatype: string
+            - name: BZ Flags
+              key: customfield_12318640
+              schema:
+                datatype: array
+                items: string
+            - name: Service / (sub)product
+              key: customfield_12316340
+              schema:
+                datatype: option
+            - name: Department
+              key: customfield_12316341
+              schema:
+                datatype: option
+            - name: Status Summary
+              key: customfield_12320841
+              schema:
+                datatype: string
+            - name: Original story points
+              key: customfield_12314040
+              schema:
+                datatype: number
+            - name: Color Status
+              key: customfield_12320845
+              schema:
+                datatype: option
+            - name: Customer Impact
+              key: customfield_12320844
+              schema:
+                datatype: array
+                items: option
+            - name: UX Designer
+              key: customfield_12320843
+              schema:
+                datatype: user
+            - name: Documentation Type
+              key: customfield_12320842
+              schema:
+                datatype: array
+                items: option
+            - name: BZ Keywords
+              key: customfield_12317318
+              schema:
+                datatype: array
+                items: string
+            - name: BZ exception
+              key: customfield_12317319
+              schema:
+                datatype: option
+            - name: Additional Assignees
+              key: customfield_12316342
+              schema:
+                datatype: array
+                items: user
+            - name: BZ Doc Type
+              key: customfield_12317310
+              schema:
+                datatype: option
+            - name: BZ QA Whiteboard
+              key: customfield_12317311
+              schema:
+                datatype: string
+            - name: OpenShift Planning Ack
+              key: customfield_12316343
+              schema:
+                datatype: array
+                items: option
+            - name: BZ Internal Whiteboard
+              key: customfield_12317312
+              schema:
+                datatype: string
+            - name: Release Notes
+              key: customfield_12317313
+              schema:
+                datatype: string
+            - name: Quarter
+              key: customfield_12317314
+              schema:
+                datatype: option
+            - name: release
+              key: customfield_12317315
+              schema:
+                datatype: option
+            - name: Hardware
+              key: customfield_12316348
+              schema:
+                datatype: array
+                items: option
+            - name: BZ Target Milestone
+              key: customfield_12317317
+              schema:
+                datatype: string
+            - name: Cluster ID
+              key: customfield_12316349
+              schema:
+                datatype: string
+            - name: CRT Acceptance Critera
+              key: customfield_12316350
+              schema:
+                datatype: string
+            - name: Aha! URL
+              key: customfield_12317440
+              schema:
+                datatype: string
+            - name: Approved
+              key: customfield_12319740
+              schema:
+                datatype: array
+                items: option
+            - name: CRT Completion Steps
+              key: customfield_12316351
+              schema:
+                datatype: string
+            - name: Current Status
+              key: customfield_12317320
+              schema:
+                datatype: option
+            - name: Satellite Team
+              key: customfield_12317441
+              schema:
+                datatype: array
+                items: option
+            - name: Size
+              key: customfield_12320852
+              schema:
+                datatype: option
+            - name: Developer
+              key: customfield_12315141
+              schema:
+                datatype: user
+            - name: Sub-System Group
+              key: customfield_12320851
+              schema:
+                datatype: array
+                items: option
+            - name: 3Scale PT Tested upstream
+              key: customfield_12315140
+              schema:
+                datatype: option
+            - name: Release Note Type
+              key: customfield_12320850
+              schema:
+                datatype: option
+            - name: Supply Chain Program
+              key: customfield_12321940
+              schema:
+                datatype: option
+            - name: PM Score
+              key: customfield_12317329
+              schema:
+                datatype: number
+            - name: RICE Score
+              key: customfield_12320849
+              schema:
+                datatype: any
+            - name: Cost of Delay
+              key: customfield_12319749
+              schema:
+                datatype: any
+            - name: Effort
+              key: customfield_12320848
+              schema:
+                datatype: number
+            - name: Confidence
+              key: customfield_12320847
+              schema:
+                datatype: option
+            - name: Reach
+              key: customfield_12320846
+              schema:
+                datatype: number
+            - name: BZ Assignee
+              key: customfield_12317321
+              schema:
+                datatype: string
+            - name: Release Commit Exception
+              key: customfield_12319742
+              schema:
+                datatype: option
+            - name: Upstream Discussion
+              key: customfield_12317442
+              schema:
+                datatype: string
+            - name: BZ Doc Text
+              key: customfield_12317322
+              schema:
+                datatype: string
+            - name: Market Intelligence Score
+              key: customfield_12319741
+              schema:
+                datatype: number
+            - name: Responsible
+              key: customfield_12319744
+              schema:
+                datatype: string
+            - name: BZ Product
+              key: customfield_12317324
+              schema:
+                datatype: option
+            - name: Release Blocker
+              key: customfield_12319743
+              schema:
+                datatype: option
+            - name: Risk Response
+              key: customfield_12319746
+              schema:
+                datatype: option
+            - name: Hold
+              key: customfield_12317326
+              schema:
+                datatype: option
+            - name: Watch List
+              key: customfield_12319745
+              schema:
+                datatype: array
+                items: user
+            - name: RHEL Sub Components
+              key: customfield_12317327
+              schema:
+                datatype: string
+            - name: BZ Whiteboard
+              key: customfield_12317328
+              schema:
+                datatype: string
+            - name: Need Info Requestees
+              key: customfield_12317370
+              schema:
+                datatype: string
+            - name: Product Affects Version
+              key: customfield_12317250
+              schema:
+                datatype: array
+                items: option
+            - name: Feature Link
+              key: customfield_12318341
+              schema:
+                datatype: issuelinks
+            - name: Git Commit
+              key: customfield_12317372
+              schema:
+                datatype: string
+            - name: Major Project
+              key: customfield_12320540
+              schema:
+                datatype: option
+            - name: Target Milestone
+              key: customfield_12317251
+              schema:
+                datatype: array
+                items: option
+            - name: Cross Team Epic
+              key: customfield_12318340
+              schema:
+                datatype: option
+            - name: In Portfolio
+              key: customfield_12317252
+              schema:
+                datatype: array
+                items: option
+            - name: MoSCoW
+              key: customfield_12316042
+              schema:
+                datatype: option
+            - name: Ack'd Status
+              key: customfield_12317374
+              schema:
+                datatype: string
+            - name: Brief
+              key: customfield_12316043
+              schema:
+                datatype: string
+            - name: EXD-Watchlist
+              key: customfield_12317253
+              schema:
+                datatype: array
+                items: option
+            - name: Block/Fail - Additional Details
+              key: customfield_12317375
+              schema:
+                datatype: string
+            - name: Watchlist Proposed Solution
+              key: customfield_12317254
+              schema:
+                datatype: string
+            - name: Shepherd
+              key: customfield_12320544
+              schema:
+                datatype: user
+            - name: Automated Test
+              key: customfield_12320543
+              schema:
+                datatype: option
+            - name: Test Plan Created
+              key: customfield_12320542
+              schema:
+                datatype: option
+            - name: Design Doc Created
+              key: customfield_12320541
+              schema:
+                datatype: option
+            - name: Committed Version
+              key: customfield_12320548
+              schema:
+                datatype: version
+            - name: Product Lead
+              key: customfield_12320547
+              schema:
+                datatype: user
+            - name: Level of Effort
+              key: customfield_12320546
+              schema:
+                datatype: option
+            - name: Interop Bug ID
+              key: customfield_12317376
+              schema:
+                datatype: string
+            - name: Watchlist Impact
+              key: customfield_12317255
+              schema:
+                datatype: string
+            - name: PM Business Priority
+              key: customfield_12317256
+              schema:
+                datatype: option
+            - name: Request Description
+              key: customfield_12317377
+              schema:
+                datatype: string
+            - name: Customers
+              key: customfield_12317257
+              schema:
+                datatype: array
+                items: string
+            - name: Resolved Date
+              key: customfield_12317379
+              schema:
+                datatype: date
+            - name: Pool Team
+              key: customfield_12317259
+              schema:
+                datatype: array
+                items: option
+            - name: Triage Status
+              key: customfield_12317380
+              schema:
+                datatype: option
+            - name: BZ Status
+              key: customfield_12317381
+              schema:
+                datatype: string
+            - name: Dev Approval
+              key: customfield_12317260
+              schema:
+                datatype: option
+            - name: Docs Approval
+              key: customfield_12317261
+              schema:
+                datatype: option
+            - name: Hierarchy Progress
+              key: customfield_12317140
+              schema:
+                datatype: string
+            - name: CEE Approval
+              key: customfield_12317262
+              schema:
+                datatype: option
+            - name: Hierarchy Progress Bar
+              key: customfield_12317141
+              schema:
+                datatype: string
+            - name: Test Failure Category
+              key: customfield_12320551
+              schema:
+                datatype: option
+            - name: PM Approval
+              key: customfield_12317263
+              schema:
+                datatype: option
+            - name: Planning Target
+              key: customfield_12319440
+              schema:
+                datatype: array
+                items: option
+            - name: RHV Progress
+              key: customfield_12317142
+              schema:
+                datatype: string
+            - name: Requires_doc_text
+              key: customfield_12317384
+              schema:
+                datatype: array
+                items: string
+            - name: QE Approval
+              key: customfield_12317264
+              schema:
+                datatype: option
+            - name: RHV Progress Bar
+              key: customfield_12317143
+              schema:
+                datatype: string
+            - name: Start Date
+              key: customfield_12317265
+              schema:
+                datatype: datetime
+            - name: Operating System
+              key: customfield_12320555
+              schema:
+                datatype: option
+            - name: Orchestrator Version
+              key: customfield_12320554
+              schema:
+                datatype: string
+            - name: Orchestrator
+              key: customfield_12320553
+              schema:
+                datatype: option
+            - name: Cluster Flavor
+              key: customfield_12320552
+              schema:
+                datatype: array
+                items: option
+            - name: Closed
+              key: customfield_12321641
+              schema:
+                datatype: datetime
+            - name: Release Delivery
+              key: customfield_12320558
+              schema:
+                datatype: option
+            - name: Docker Version
+              key: customfield_12320557
+              schema:
+                datatype: array
+                items: string
+            - name: Delivery Forecast Version
+              key: customfield_12320549
+              schema:
+                datatype: version
+            - name: BZ QE Conditional NAK
+              key: customfield_12317267
+              schema:
+                datatype: array
+                items: option
+            - name: Internal Target Milestone_old
+              key: customfield_12317146
+              schema:
+                datatype: number
+            - name: BZ Devel Whiteboard
+              key: customfield_12317268
+              schema:
+                datatype: string
+            - name: Need Info From
+              key: customfield_12311840
+              schema:
+                datatype: array
+                items: user
+            - name: Organization Sponsor
+              key: customfield_12316140
+              schema:
+                datatype: option
+            - name: Sponsor
+              key: customfield_12317350
+              schema:
+                datatype: user
+            - name: Next Review
+              key: customfield_12317351
+              schema:
+                datatype: date
+            - name: Product Sponsor
+              key: customfield_12316141
+              schema:
+                datatype: option
+            - name: Severity
+              key: customfield_12316142
+              schema:
+                datatype: option
+            - name: Strategy Approved
+              key: customfield_12317352
+              schema:
+                datatype: date
+            - name: DEV Story Points
+              key: customfield_12318444
+              schema:
+                datatype: number
+            - name: QE Story Points
+              key: customfield_12318443
+              schema:
+                datatype: number
+            - name: Regression
+              key: customfield_12318446
+              schema:
+                datatype: option
+            - name: DOC Story Points
+              key: customfield_12318445
+              schema:
+                datatype: number
+            - name: Market Intelligence
+              key: customfield_12317357
+              schema:
+                datatype: user
+            - name: Function Impact
+              key: customfield_12317358
+              schema:
+                datatype: array
+                items: string
+            - name: Rank (Obsolete)
+              key: customfield_12310840
+              schema:
+                datatype: any
+            - name: Test Blocker
+              key: customfield_12318448
+              schema:
+                datatype: option
+            - name: Automated
+              key: customfield_12318447
+              schema:
+                datatype: option
+            - name: oVirt Team
+              key: customfield_12317359
+              schema:
+                datatype: option
+            - name: CDW support_ack
+              key: customfield_12318449
+              schema:
+                datatype: string
+            - name: Doc Contact
+              key: customfield_12317360
+              schema:
+                datatype: user
+            - name: Deployment Environment
+              key: customfield_12319540
+              schema:
+                datatype: option
+            - name: Involved teams
+              key: customfield_12317361
+              schema:
+                datatype: array
+                items: string
+            - name: Additional watchers
+              key: customfield_12317362
+              schema:
+                datatype: array
+                items: user
+            - name: Fixed in Build
+              key: customfield_12318450
+              schema:
+                datatype: string
+            - name: External issue URL
+              key: customfield_12317242
+              schema:
+                datatype: string
+            - name: Fixed In Version
+              key: customfield_12317363
+              schema:
+                datatype: string
+            - name: ServiceNow ID
+              key: customfield_12317243
+              schema:
+                datatype: string
+            - name: Testable Builds
+              key: customfield_12321740
+              schema:
+                datatype: string
+            - name: SourceForge Reference
+              key: customfield_10002
+              schema:
+                datatype: string
+            - name: Gerrit Link
+              key: customfield_12317244
+              schema:
+                datatype: string
+            - name: ACKs Check
+              key: customfield_12317366
+              schema:
+                datatype: array
+                items: option
+            - name: Mojo Link
+              key: customfield_12317245
+              schema:
+                datatype: string
+            - name: Needs Info
+              key: customfield_12317246
+              schema:
+                datatype: user
+            - name: '[QE] How to address?'
+              key: customfield_12317367
+              schema:
+                datatype: option
+            - name: Discussion Needed
+              key: customfield_12317247
+              schema:
+                datatype: array
+                items: option
+            - name: '[QE] Why QE missed?'
+              key: customfield_12317368
+              schema:
+                datatype: option
+            - name: CDW docs_ack
+              key: customfield_12311941
+              schema:
+                datatype: string
+            - name: Discussion Occurred
+              key: customfield_12317248
+              schema:
+                datatype: array
+                items: option
+            - name: RCA Description
+              key: customfield_12317369
+              schema:
+                datatype: string
+            - name: Contributing Teams
+              key: customfield_12317249
+              schema:
+                datatype: array
+                items: option
+            - name: Rank
+              key: customfield_12311940
+              schema:
+                datatype: any
+            - name: Action
+              key: customfield_12317291
+              schema:
+                datatype: option
+            - name: Dev Target Milestone
+              key: customfield_12318141
+              schema:
+                datatype: option
+            - name: prev_assignee
+              key: customfield_12318140
+              schema:
+                datatype: user
+            - name: PLM Business Lead
+              key: customfield_12318143
+              schema:
+                datatype: user
+            - name: PLM  Technical Lead
+              key: customfield_12318142
+              schema:
+                datatype: user
+            - name: PX Scheduling Request
+              key: customfield_12320341
+              schema:
+                datatype: array
+                items: version
+            - name: Planned Start
+              key: customfield_12317296
+              schema:
+                datatype: date
+            - name: Product Page link
+              key: customfield_12318145
+              schema:
+                datatype: string
+            - name: PLM Program Manager
+              key: customfield_12318144
+              schema:
+                datatype: user
+            - name: Solution
+              key: customfield_12317298
+              schema:
+                datatype: option
+            - name: Reminder Date
+              key: customfield_12317290
+              schema:
+                datatype: date
+            - name: Test Work Items
+              key: customfield_12312840
+              schema:
+                datatype: any
+            - name: Internal Product/Project names
+              key: customfield_12318147
+              schema:
+                datatype: string
+            - name: Latest Status Summary
+              key: customfield_12317299
+              schema:
+                datatype: string
+            - name: Portal Product Name
+              key: customfield_12318146
+              schema:
+                datatype: string
+            - name: QE Test Coverage
+              key: customfield_12312848
+              schema:
+                datatype: option
+            - name: Stale Date
+              key: customfield_12318148
+              schema:
+                datatype: date
+            - name: Approver
+              key: customfield_12318150
+              schema:
+                datatype: user
+            - name: Internal Target Milestone numeric
+              key: customfield_12321440
+              schema:
+                datatype: number
+            - name: DevOps Discussion Occurred
+              key: customfield_12319241
+              schema:
+                datatype: array
+                items: option
+            - name: EAP PT Cross Product Agreement (CPA)
+              key: customfield_12321441
+              schema:
+                datatype: option
+            - name: MVP Status
+              key: customfield_12318152
+              schema:
+                datatype: option
+            - name: DevOps Discussion Needed
+              key: customfield_12319240
+              schema:
+                datatype: array
+                items: option
+            - name: Design Review Sign-off
+              key: customfield_12319242
+              schema:
+                datatype: array
+                items: user
+            - name: Risk Impact
+              key: customfield_12318156
+              schema:
+                datatype: option
+            - name: Risk Likelihood
+              key: customfield_12318155
+              schema:
+                datatype: option
+            - name: Impacts
+              key: customfield_12313940
+              schema:
+                datatype: array
+                items: option
+            - name: Security Sensitive Issue
+              key: customfield_12311640
+              schema:
+                datatype: array
+                items: option
+            - name: Involved
+              key: customfield_12311641
+              schema:
+                datatype: array
+                items: user
+            - name: Next Planned Release Date
+              key: customfield_12319247
+              schema:
+                datatype: date
+            - name: Risk Mitigation Strategy
+              key: customfield_12318158
+              schema:
+                datatype: array
+                items: option
+            - name: Risk Score Assessment
+              key: customfield_12318157
+              schema:
+                datatype: string
+            - name: Avoidable
+              key: customfield_12319249
+              schema:
+                datatype: option
+            - name: Target end
+              key: customfield_12313942
+              schema:
+                datatype: date
+            - name: Target start
+              key: customfield_12313941
+              schema:
+                datatype: date
+            - name: BZ Devel Conditional NAK
+              key: customfield_12317270
+              schema:
+                datatype: array
+                items: option
+            - name: CDW Resolution
+              key: customfield_12317392
+              schema:
+                datatype: option
+            - name: mvp
+              key: customfield_12317271
+              schema:
+                datatype: option
+            - name: rpl
+              key: customfield_12317272
+              schema:
+                datatype: option
+            - name: Verified
+              key: customfield_12317273
+              schema:
+                datatype: string
+            - name: Documenter
+              key: customfield_12318241
+              schema:
+                datatype: user
+            - name: ITR-ITM
+              key: customfield_12317396
+              schema:
+                datatype: string
+            - name: Analyst
+              key: customfield_12318243
+              schema:
+                datatype: user
+            - name: Internal Target Release and Milestone
+              key: customfield_12317277
+              schema:
+                datatype: option-with-child
+            - name: Current Deadline
+              key: customfield_12317278
+              schema:
+                datatype: date
+            - name: Global Practices Lead
+              key: customfield_12318245
+              schema:
+                datatype: user
+            - name: Current Deadline Type
+              key: customfield_12317279
+              schema:
+                datatype: option
+            - name: Eng. priority
+              key: customfield_12312940
+              schema:
+                datatype: option
+            - name: QE priority
+              key: customfield_12312941
+              schema:
+                datatype: option
+            - name: Embargo Override
+              key: customfield_12317281
+              schema:
+                datatype: array
+                items: user
+            - name: Baseline Start
+              key: customfield_12317282
+              schema:
+                datatype: datetime
+            - name: Preliminary Testing
+              key: customfield_12321540
+              schema:
+                datatype: option
+            - name: Baseline End
+              key: customfield_12317283
+              schema:
+                datatype: datetime
+            - name: EAP PT Feature Implementation (FI)
+              key: customfield_12317041
+              schema:
+                datatype: option
+            - name: Errata Link
+              key: customfield_12321541
+              schema:
+                datatype: string
+            - name: Docs Analysis
+              key: customfield_12317042
+              schema:
+                datatype: any
+            - name: Subproject
+              key: customfield_12317284
+              schema:
+                datatype: string
+            - name: Root Cause
+              key: customfield_12317285
+              schema:
+                datatype: option
+            - name: Stage Links
+              key: customfield_12317043
+              schema:
+                datatype: any
+            - name: Docs Pull Request
+              key: customfield_12317044
+              schema:
+                datatype: any
+            - name: Project/s
+              key: customfield_12317286
+              schema:
+                datatype: option
+            - name: Authorized Party
+              key: customfield_12321542
+              schema:
+                datatype: user
+            - name: User Story
+              key: customfield_12311740
+              schema:
+                datatype: string
+            - name: Reminder Frequency
+              key: customfield_12317288
+              schema:
+                datatype: option
+            - name: QE Acceptance Test Link
+              key: customfield_12311741
+              schema:
+                datatype: any
+            - name: Partner Fixed Version
+              key: customfield_12322440
+              schema:
+                datatype: string
+            - name: Scoping Status
+              key: customfield_12319272
+              schema:
+                datatype: option
+            - name: Partner Affects Version
+              key: customfield_12322441
+              schema:
+                datatype: string
+            - name: QE_AUTO_Coverage
+              key: customfield_12319271
+              schema:
+                datatype: option
+            - name: Customer Affects Version
+              key: customfield_12322442
+              schema:
+                datatype: string
+            - name: Function
+              key: customfield_12319274
+              schema:
+                datatype: array
+                items: option
+            - name: Stakeholders
+              key: customfield_12319273
+              schema:
+                datatype: string
+            - name: Workstream
+              key: customfield_12319275
+              schema:
+                datatype: array
+                items: option
+            - name: Version
+              key: customfield_12319278
+              schema:
+                datatype: option
+            - name: Product
+              key: customfield_12319277
+              schema:
+                datatype: string
+            - name: Security Documentation Type
+              key: customfield_12319270
+              schema:
+                datatype: array
+                items: option
+            - name: Git Pull Request
+              key: customfield_12310220
+              schema:
+                datatype: any
+            - name: Job ID
+              key: customfield_12319279
+              schema:
+                datatype: string
+            - name: Products
+              key: customfield_12319040
+              schema:
+                datatype: array
+                items: option
+            - name: Installation Attempt
+              key: customfield_12319043
+              schema:
+                datatype: number
+            - name: PX Technical Impact Notes
+              key: customfield_12319285
+              schema:
+                datatype: string
+            - name: Installation Result
+              key: customfield_12319042
+              schema:
+                datatype: option
+            - name: Docs Impact Notes
+              key: customfield_12319287
+              schema:
+                datatype: string
+            - name: User Domain
+              key: customfield_12319045
+              schema:
+                datatype: string
+            - name: Docs Impact
+              key: customfield_12319286
+              schema:
+                datatype: option
+            - name: User
+              key: customfield_12319044
+              schema:
+                datatype: string
+            - name: Marketing Impact Notes
+              key: customfield_12319289
+              schema:
+                datatype: string
+            - name: GtmhubTaskParentType
+              key: customfield_12321240
+              schema:
+                datatype: string
+            - name: Marketing Impact
+              key: customfield_12319288
+              schema:
+                datatype: option
+            - name: Approvals
+              key: customfield_12310110
+              schema:
+                datatype: array
+                items: option
+            - name: Docs QE Status
+              key: customfield_12310230
+              schema:
+                datatype: option
+            - name: Migration Text
+              key: customfield_12313740
+              schema:
+                datatype: string
+            - name: Communication Breakdown
+              key: customfield_12319250
+              schema:
+                datatype: option
+            - name: affectsRHMIVersion
+              key: customfield_12318040
+              schema:
+                datatype: string
+            - name: Release Milestone
+              key: customfield_12319252
+              schema:
+                datatype: array
+                items: option
+            - name: QE Properly Involved
+              key: customfield_12319251
+              schema:
+                datatype: option
+            - name: affectsRHOAMVersion
+              key: customfield_12318041
+              schema:
+                datatype: string
+            - name: Bugzilla References
+              key: customfield_12310440
+              schema:
+                datatype: any
+            - name: Proposed Initiative
+              key: customfield_12319263
+              schema:
+                datatype: option
+            - name: Keyword
+              key: customfield_12319262
+              schema:
+                datatype: array
+                items: option
+            - name: Immutable Due Date
+              key: customfield_12319264
+              schema:
+                datatype: option
+            - name: Failure Category
+              key: customfield_12319267
+              schema:
+                datatype: option
+            - name: Documentation Categories
+              key: customfield_12319266
+              schema:
+                datatype: array
+                items: option
+            - name: Notes
+              key: customfield_12313841
+              schema:
+                datatype: string
+            - name: UXD Engagement Level
+              key: customfield_12313840
+              schema:
+                datatype: option
+            - name: Release Note Text
+              key: customfield_12310211
+              schema:
+                datatype: string
+            - name: sprint_count
+              key: customfield_12319269
+              schema:
+                datatype: number
+            - name: QE portion
+              key: customfield_12319268
+              schema:
+                datatype: number
+            - name: Release Note Status
+              key: customfield_12310213
+              schema:
+                datatype: option
+            - name: Writer
+              key: customfield_12310214
+              schema:
+                datatype: user
+    types:
+        - id: "1"
+          name: Bug
+          handle: ""
+          subtask: false
+        - id: "2"
+          name: Feature Request
+          handle: ""
+          subtask: false
+        - id: "13"
+          name: Enhancement
+          handle: ""
+          subtask: false
+        - id: "3"
+          name: Task
+          handle: ""
+          subtask: false
+        - id: "5"
+          name: Sub-task
+          handle: ""
+          subtask: true
+login: hpehl@redhat.com
+project:
+    key: HAL
+    type: ""
+server: https://issues.redhat.com
+version:
+    major: 8
+    minor: 20
+    patch: 11
