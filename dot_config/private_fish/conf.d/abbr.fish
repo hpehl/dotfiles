@@ -12,6 +12,7 @@ abbr -a -- vab 'nvim ~/.config/fish/conf.d/abbr.fish'
 abbr -a -- zab 'zed ~/.config/fish/conf.d/abbr.fish'
 
 # Chezmoi
+abbr -a -- cm   chezmoi
 abbr -a -- cma  chezmoi add
 abbr -a -- cmaa chezmoi-add-all
 abbr -a -- cmcd chezmoi cd
