@@ -1,0 +1,56 @@
+<settings
+    xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd"
+>
+
+    <activeProfiles>
+        <activeProfile>apple-silicon</activeProfile>
+    </activeProfiles>
+
+    <profiles>
+        <profile>
+            <id>apple-silicon</id>
+            <properties>
+                <os.detected.classifier>osx-x86_64</os.detected.classifier>
+            </properties>
+        </profile>
+        <profile>
+            <id>quick-build</id>
+            <activation>
+                <property>
+                    <name>quickly</name>
+                </property>
+            </activation>
+            <properties>
+                <checkstyle.skip>true</checkstyle.skip>
+                <editorconfig.skip>true</editorconfig.skip>
+                <enforcer.skip>true</enforcer.skip>
+                <impsort.skip>true</impsort.skip>
+                <license.skip>true</license.skip>
+                <maven.javadoc.skip>true</maven.javadoc.skip>
+                <skip.gwt>true</skip.gwt>
+                <skipITs>true</skipITs>
+                <skipTests>true</skipTests>
+            </properties>
+        </profile>
+    </profiles>
+
+    <servers>
+        <server>
+            <id>central</id>
+            <username>{{ onepasswordRead "op://Private/Maven Settings/Central/Username" }}</username>
+            <password>{{ onepasswordRead "op://Private/Maven Settings/Central/Passwort" }}</password>
+        </server>
+        <server>
+            <id>ossrh</id>
+            <username>{{ onepasswordRead "op://Private/Maven Settings/OSSRH/Username" }}</username>
+            <password>{{ onepasswordRead "op://Private/Maven Settings/OSSRH/Passwort" }}</password>
+        </server>
+        <server>
+            <id>jboss</id>
+            <username>{{ onepasswordRead "op://Private/Maven Settings/JBoss/Username" }}</username>
+            <password>{{ onepasswordRead "op://Private/Maven Settings/JBoss/Passwort" }}</password>
+        </server>
+    </servers>
+</settings>
