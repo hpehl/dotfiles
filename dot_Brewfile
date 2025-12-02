@@ -28,7 +28,6 @@ brew "podman"
 brew "procs"
 brew "ripgrep"
 brew "starship"
-brew "terminal-notifier"
 brew "tlrc"
 brew "zoxide"
 brew "hpehl/tap/mcup"
@@ -36,3 +35,6 @@ brew "hpehl/tap/wado"
 cask "1password-cli"
 cask "font-meslo-for-powerlevel10k"
 mas "Day One", id: 1055511498
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
