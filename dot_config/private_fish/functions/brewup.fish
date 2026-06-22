@@ -1,4 +1,4 @@
 function brewup
-    brew update; brew upgrade; brew cleanup; brew doctor
+    brew update; brew upgrade --yes; brew cleanup; brew doctor
 end
 
