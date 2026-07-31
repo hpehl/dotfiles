@@ -4,7 +4,7 @@ abbr -a -- cpwd 'pwd | tr -d "\n" | pbcopy'
 abbr -a -- cpbr 'git branch --show-current | tr -d "\n" | pbcopy'
 abbr -a -- j! jbang
 abbr -a -- o ouch
-abbr -a -- ols ouch list
+abbr -a -- ols ouch list --tree
 abbr -a -- oco ouch compress
 abbr -a -- ode ouch decompress
 abbr -a -- v nvim
@@ -107,3 +107,13 @@ abbr -a -- pspa 'podman system prune --all'
 abbr -a -- pvl  'podman volume ls'
 abbr -a -- pvp  'podman volume prune'
 abbr -a -- pvrm 'podman volume rm'
+
+# TimeWarrior
+abbr -a -- tw  'timew'
+abbr -a -- twa 'timew start'
+abbr -a -- two 'timew stop'
+abbr -a -- tww 'timew week'
+abbr -a -- twm 'timew month'
+abbr -a -- tws 'timew summary'
+abbr -a -- twt 'timew track'
+abbr -a -- twy 'timew modify'
