@@ -5,6 +5,7 @@ SETUVAR --export CLAUDE_CODE_USE_VERTEX:1
 SETUVAR --export CLOUD_ML_REGION:global
 SETUVAR --export DOCKER_HOST:unix\x3a///var/folders/kq/k1mfh3_x4qz256p_03rhftj00000gn/T/podman/podman\x2dmachine\x2ddefault\x2dapi\x2esock
 SETUVAR --export EDITOR:nvim
+SETUVAR --export GITHUB_CLAUDE_PAT:{{- onepasswordRead "op://Private/GitHub/Personal Access Tokens/Claude Code" }}
 SETUVAR --export GPG_TTY:/dev/ttys007
 SETUVAR --export JIRA_API_TOKEN:{{- onepasswordRead "op://Private/idk5ksnkzjautcl2gmu5xe4uyi/add more/voqegvryeu7uf3wfjdcyqhyisi" }}
 SETUVAR --export JIRA_AUTH_TYPE:bearer
